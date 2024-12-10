@@ -43,8 +43,8 @@ public class BaseClass {
 		
 		options.addArguments("--headless");
 		
-		//driver = new ChromeDriver(options);
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(options);
+		//driver = new ChromeDriver();
 		//driver = new EdgeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
