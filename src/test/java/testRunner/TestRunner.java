@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"rerun:target/rerun.txt"
 				},
-		tags="@sanity and @regression",
+		tags="@sanity or @regression",
 		monochrome=true,
 		dryRun=false,
 		publish=true
